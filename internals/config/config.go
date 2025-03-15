@@ -8,7 +8,7 @@ var AppConfig *Config
 
 type ServerConfig struct {
 	AppName string `env:"APP_NAME"`
-	Port string  `env:"PORT"`
+	Port string  `env:"APP_PORT"`
 }
 
 
