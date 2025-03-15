@@ -1,0 +1,27 @@
+POST http://localhost:3000/todos
+Content-Type: application/json
+
+{
+  "title": "Buy milk",
+  "description": "Go to the store and buy some milk"
+}
+
+###
+GET http://localhost:3000/todos
+
+###
+GET http://localhost:3000/todos/1
+
+###
+PATCH http://localhost:3000/todos/1
+Content-Type: application/json
+
+{
+  "title": "Buy milk",
+  "description": "Go to the store and buy some milk",
+  "completed": true
+}
+
+
+###
+DELETE http://localhost:3000/todos/1
